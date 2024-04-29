@@ -1,0 +1,35 @@
+html, body {
+    font-family: $font-family;
+    max-width: 1200px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.background-pink {
+    background-color: $pink;
+}
+
+.background-light-grey{
+    background-color: $light-grey;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+// btn class is used on the NuxtLink component
+
+.btn {
+    border: none;
+    color: white;
+    background: #d60365;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: $font-family;
+    text-decoration: none;
+}
